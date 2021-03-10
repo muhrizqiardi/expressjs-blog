@@ -9,7 +9,7 @@ const app = express();
 
 // Connect to MongoDB
 const db_URI =
-    "mongodb://bebekmadura:F5WS35kuaBHCmIWs@cluster0-shard-00-00.godje.mongodb.net:27017,cluster0-shard-00-01.godje.mongodb.net:27017,cluster0-shard-00-02.godje.mongodb.net:27017/node-tuts?ssl=true&replicaSet=atlas-g1bq9u-shard-0&authSource=admin&retryWrites=true&w=majority";
+    "isi_sendiri";
 mongoose.connect(db_URI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then((result) => {
         console.log("Connected to DB :)");
