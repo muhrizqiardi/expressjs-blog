@@ -1,0 +1,92 @@
+body {
+    font-family: 'Consolas', Courier, monospace !important;
+    color: white !important;
+    background-color: black;
+    margin: 0 30%;
+    min-height: 100vh;
+}
+
+a {
+    color: green;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p.no-entries {
+    text-align: center;
+}
+
+.blog-link {
+    border-left: 3px solid green;
+    padding-left: 10px;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.blog-link h3 {
+    color: green;
+}
+
+.blog-link p {
+    text-decoration: none;
+    color: white;
+}
+
+.delette {
+    cursor: pointer;
+}
+
+nav li {
+    margin-left: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form button, form textarea {
+    margin: 1em 0;
+}
+
+button {
+    border: 0;
+    background: none;
+    background-color: green;
+    padding: 15px;
+}
+
+form textarea {
+    height: 300px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 0 5%;
+    }
+}
